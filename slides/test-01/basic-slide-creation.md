@@ -12,3 +12,29 @@ There are very few rules for our company's house style; but all titles are a com
 
 Output:
 - [mythical-agent-month.pptx](https://github.com/dudgeon/cowork-tests/blob/main/slides/test-01/mythical-agent-month.pptx)
+- Proved the pattern (can roundtrip source Google Slides through Cowork via .PPTX files without breaking formatting; can extract key points into blue boxes, etc)
+- Output lacked any kind of insight and took article at face value (arguably in line with the instruction)
+
+## Enhance insight extraction and story telling
+
+Instruction to Claude:
+```
+please research some best practices to extract insights from articles (not missing the forest for the trees; identifying the big "so what", expanding on topics that are intuitive to the source but may be a big insight to the reader) and constructing solid powerpoint/presentation narratives. then write an instruction that claude can understand and use to improve its synthesis and storytelling abilities
+```
+
+Output: [insight-synthesis-and-narrative-instruction.md](https://github.com/dudgeon/cowork-tests/blob/main/slides/test-01/insight-synthesis-and-narrative-instruction.md)
+
+# Round 1: Test enhanced insight generation and narrative abilities
+
+Continued from previous claude session (infer that starter deck is now [mythical-agent-month.pptx](https://github.com/dudgeon/cowork-tests/blob/main/slides/test-01/mythical-agent-month.pptx))
+
+Prompt:
+```
+I would like you to try again; reread the new guidelines at the end of this prompt, reread the article, consider the guidelines, and make a v2 of your deck adhering to the guideline.
+
+Guideline: {pasted [insight-synthesis-and-narrative-instruction.md]}
+```
+
+Output:
+- [mythical-agent-month-v2.pptx](https://github.com/dudgeon/cowork-tests/blob/main/slides/test-01/mythical-agent-month-v2.pptx)
+- First pass: much more insightful narrative
