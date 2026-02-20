@@ -1,5 +1,7 @@
+# Round 0: Just test the pattern
+
 Starter template:
-- basic COF generic template
+- basic COF generic template: [MLA Slide Template Empty.pptx](https://github.com/dudgeon/cowork-tests/blob/main/slides/test-01/MLA%20Slide%20Template%20Empty.pptx)
 
 Prompt:
 ```
@@ -9,4 +11,4 @@ There are very few rules for our company's house style; but all titles are a com
 ```
 
 Output:
-- 
+- [mythical-agent-month.pptx](https://github.com/dudgeon/cowork-tests/blob/main/slides/test-01/mythical-agent-month.pptx)
